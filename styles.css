@@ -111,6 +111,7 @@ img {
 /* MAIN BODY */
 
 main {
+	align-content: flex-start;
 	background-color: #483F3B;
 	border-radius: 5px;
 	display: flex;
@@ -118,14 +119,22 @@ main {
 	margin-top: 10px;
 	padding: 10px;
 	text-align: center;
-	width: 90%;
+	width: 100%;
 }
 aside {
 	flex: 1;
 }
 aside ul {
-	background-color: green;
-	display: block;
+	background-color: #2c2623;
+	border-radius: 5px;
+}
+aside li {
+	padding: 1em;
+}
+article {
+	background-color: #5B6942;
+	border-radius: 5px;
+	flex: 4;
 }
 p {
 	box-sizing: border-box;
